@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A2B54E51CB4F05D00AACCE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B54E41CB4F05D00AACCE9 /* main.m */; };
+		6A2B54E81CB4F05D00AACCE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B54E71CB4F05D00AACCE9 /* AppDelegate.m */; };
+		6A2B54EB1CB4F05D00AACCE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B54EA1CB4F05D00AACCE9 /* ViewController.m */; };
+		6A2B54EE1CB4F05E00AACCE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54EC1CB4F05E00AACCE9 /* Main.storyboard */; };
+		6A2B54F01CB4F05E00AACCE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54EF1CB4F05E00AACCE9 /* Assets.xcassets */; };
+		6A2B54F31CB4F05E00AACCE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54F11CB4F05E00AACCE9 /* LaunchScreen.storyboard */; };
+		6A2B54FE1CB4F05E00AACCE9 /* Excel_show_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B54FD1CB4F05E00AACCE9 /* Excel_show_testTests.m */; };
+		6A2B55091CB4F05E00AACCE9 /* Excel_show_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B55081CB4F05E00AACCE9 /* Excel_show_testUITests.m */; };
+		6A2B55311CB4F06700AACCE9 /* CellSelectedBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B55191CB4F06700AACCE9 /* CellSelectedBackgroundView.m */; };
+		6A2B55321CB4F06700AACCE9 /* ContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B551B1CB4F06700AACCE9 /* ContentCollectionViewCell.m */; };
+		6A2B55331CB4F06700AACCE9 /* ContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B551C1CB4F06700AACCE9 /* ContentCollectionViewCell.xib */; };
+		6A2B55341CB4F06700AACCE9 /* ContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B551E1CB4F06700AACCE9 /* ContentTableView.m */; };
+		6A2B55351CB4F06700AACCE9 /* ContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B55201CB4F06700AACCE9 /* ContentTableViewCell.m */; };
+		6A2B55361CB4F06700AACCE9 /* ContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B55211CB4F06700AACCE9 /* ContentTableViewCell.xib */; };
+		6A2B55371CB4F06700AACCE9 /* ExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B55241CB4F06700AACCE9 /* ExcelView.m */; };
+		6A2B55381CB4F06700AACCE9 /* LeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B55271CB4F06700AACCE9 /* LeftTableView.m */; };
+		6A2B55391CB4F06700AACCE9 /* LeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B55291CB4F06700AACCE9 /* LeftTableViewCell.m */; };
+		6A2B553A1CB4F06700AACCE9 /* LeftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B552A1CB4F06700AACCE9 /* LeftTableViewCell.xib */; };
+		6A2B553B1CB4F06700AACCE9 /* TopCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B552D1CB4F06700AACCE9 /* TopCollectionView.m */; };
+		6A2B553C1CB4F06700AACCE9 /* TopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B552F1CB4F06700AACCE9 /* TopCollectionViewCell.m */; };
+		6A2B553D1CB4F06700AACCE9 /* TopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B55301CB4F06700AACCE9 /* TopCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A2B54FA1CB4F05E00AACCE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A2B54D81CB4F05D00AACCE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A2B54DF1CB4F05D00AACCE9;
+			remoteInfo = Excel_show_test;
+		};
+		6A2B55051CB4F05E00AACCE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A2B54D81CB4F05D00AACCE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A2B54DF1CB4F05D00AACCE9;
+			remoteInfo = Excel_show_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A2B54E01CB4F05D00AACCE9 /* Excel_show_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Excel_show_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2B54E41CB4F05D00AACCE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A2B54E61CB4F05D00AACCE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A2B54E71CB4F05D00AACCE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A2B54E91CB4F05D00AACCE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A2B54EA1CB4F05D00AACCE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A2B54ED1CB4F05E00AACCE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A2B54EF1CB4F05E00AACCE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A2B54F21CB4F05E00AACCE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A2B54F41CB4F05E00AACCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A2B54F91CB4F05E00AACCE9 /* Excel_show_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Excel_show_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2B54FD1CB4F05E00AACCE9 /* Excel_show_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Excel_show_testTests.m; sourceTree = "<group>"; };
+		6A2B54FF1CB4F05E00AACCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A2B55041CB4F05E00AACCE9 /* Excel_show_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Excel_show_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2B55081CB4F05E00AACCE9 /* Excel_show_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Excel_show_testUITests.m; sourceTree = "<group>"; };
+		6A2B550A1CB4F05E00AACCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A2B55181CB4F06700AACCE9 /* CellSelectedBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSelectedBackgroundView.h; sourceTree = "<group>"; };
+		6A2B55191CB4F06700AACCE9 /* CellSelectedBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSelectedBackgroundView.m; sourceTree = "<group>"; };
+		6A2B551A1CB4F06700AACCE9 /* ContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCollectionViewCell.h; sourceTree = "<group>"; };
+		6A2B551B1CB4F06700AACCE9 /* ContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCollectionViewCell.m; sourceTree = "<group>"; };
+		6A2B551C1CB4F06700AACCE9 /* ContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		6A2B551D1CB4F06700AACCE9 /* ContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableView.h; sourceTree = "<group>"; };
+		6A2B551E1CB4F06700AACCE9 /* ContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableView.m; sourceTree = "<group>"; };
+		6A2B551F1CB4F06700AACCE9 /* ContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableViewCell.h; sourceTree = "<group>"; };
+		6A2B55201CB4F06700AACCE9 /* ContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewCell.m; sourceTree = "<group>"; };
+		6A2B55211CB4F06700AACCE9 /* ContentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentTableViewCell.xib; sourceTree = "<group>"; };
+		6A2B55221CB4F06700AACCE9 /* Excel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Excel.h; sourceTree = "<group>"; };
+		6A2B55231CB4F06700AACCE9 /* ExcelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcelView.h; sourceTree = "<group>"; };
+		6A2B55241CB4F06700AACCE9 /* ExcelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcelView.m; sourceTree = "<group>"; };
+		6A2B55261CB4F06700AACCE9 /* LeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableView.h; sourceTree = "<group>"; };
+		6A2B55271CB4F06700AACCE9 /* LeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableView.m; sourceTree = "<group>"; };
+		6A2B55281CB4F06700AACCE9 /* LeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewCell.h; sourceTree = "<group>"; };
+		6A2B55291CB4F06700AACCE9 /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCell.m; sourceTree = "<group>"; };
+		6A2B552A1CB4F06700AACCE9 /* LeftTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftTableViewCell.xib; sourceTree = "<group>"; };
+		6A2B552C1CB4F06700AACCE9 /* TopCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCollectionView.h; sourceTree = "<group>"; };
+		6A2B552D1CB4F06700AACCE9 /* TopCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCollectionView.m; sourceTree = "<group>"; };
+		6A2B552E1CB4F06700AACCE9 /* TopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCollectionViewCell.h; sourceTree = "<group>"; };
+		6A2B552F1CB4F06700AACCE9 /* TopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCollectionViewCell.m; sourceTree = "<group>"; };
+		6A2B55301CB4F06700AACCE9 /* TopCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A2B54DD1CB4F05D00AACCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2B54F61CB4F05E00AACCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2B55011CB4F05E00AACCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A2B54D71CB4F05D00AACCE9 = {
+			isa = PBXGroup;
+			children = (
+				6A2B54E21CB4F05D00AACCE9 /* Excel_show_test */,
+				6A2B54FC1CB4F05E00AACCE9 /* Excel_show_testTests */,
+				6A2B55071CB4F05E00AACCE9 /* Excel_show_testUITests */,
+				6A2B54E11CB4F05D00AACCE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A2B54E11CB4F05D00AACCE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B54E01CB4F05D00AACCE9 /* Excel_show_test.app */,
+				6A2B54F91CB4F05E00AACCE9 /* Excel_show_testTests.xctest */,
+				6A2B55041CB4F05E00AACCE9 /* Excel_show_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A2B54E21CB4F05D00AACCE9 /* Excel_show_test */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B55161CB4F06700AACCE9 /* JExcelView */,
+				6A2B54E61CB4F05D00AACCE9 /* AppDelegate.h */,
+				6A2B54E71CB4F05D00AACCE9 /* AppDelegate.m */,
+				6A2B54E91CB4F05D00AACCE9 /* ViewController.h */,
+				6A2B54EA1CB4F05D00AACCE9 /* ViewController.m */,
+				6A2B54EC1CB4F05E00AACCE9 /* Main.storyboard */,
+				6A2B54EF1CB4F05E00AACCE9 /* Assets.xcassets */,
+				6A2B54F11CB4F05E00AACCE9 /* LaunchScreen.storyboard */,
+				6A2B54F41CB4F05E00AACCE9 /* Info.plist */,
+				6A2B54E31CB4F05D00AACCE9 /* Supporting Files */,
+			);
+			path = Excel_show_test;
+			sourceTree = "<group>";
+		};
+		6A2B54E31CB4F05D00AACCE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B54E41CB4F05D00AACCE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A2B54FC1CB4F05E00AACCE9 /* Excel_show_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B54FD1CB4F05E00AACCE9 /* Excel_show_testTests.m */,
+				6A2B54FF1CB4F05E00AACCE9 /* Info.plist */,
+			);
+			path = Excel_show_testTests;
+			sourceTree = "<group>";
+		};
+		6A2B55071CB4F05E00AACCE9 /* Excel_show_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B55081CB4F05E00AACCE9 /* Excel_show_testUITests.m */,
+				6A2B550A1CB4F05E00AACCE9 /* Info.plist */,
+			);
+			path = Excel_show_testUITests;
+			sourceTree = "<group>";
+		};
+		6A2B55161CB4F06700AACCE9 /* JExcelView */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B55171CB4F06700AACCE9 /* ContentView */,
+				6A2B55221CB4F06700AACCE9 /* Excel.h */,
+				6A2B55231CB4F06700AACCE9 /* ExcelView.h */,
+				6A2B55241CB4F06700AACCE9 /* ExcelView.m */,
+				6A2B55251CB4F06700AACCE9 /* LeftTableView */,
+				6A2B552B1CB4F06700AACCE9 /* TopCollectionView */,
+			);
+			path = JExcelView;
+			sourceTree = "<group>";
+		};
+		6A2B55171CB4F06700AACCE9 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B55181CB4F06700AACCE9 /* CellSelectedBackgroundView.h */,
+				6A2B55191CB4F06700AACCE9 /* CellSelectedBackgroundView.m */,
+				6A2B551A1CB4F06700AACCE9 /* ContentCollectionViewCell.h */,
+				6A2B551B1CB4F06700AACCE9 /* ContentCollectionViewCell.m */,
+				6A2B551C1CB4F06700AACCE9 /* ContentCollectionViewCell.xib */,
+				6A2B551D1CB4F06700AACCE9 /* ContentTableView.h */,
+				6A2B551E1CB4F06700AACCE9 /* ContentTableView.m */,
+				6A2B551F1CB4F06700AACCE9 /* ContentTableViewCell.h */,
+				6A2B55201CB4F06700AACCE9 /* ContentTableViewCell.m */,
+				6A2B55211CB4F06700AACCE9 /* ContentTableViewCell.xib */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		6A2B55251CB4F06700AACCE9 /* LeftTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B55261CB4F06700AACCE9 /* LeftTableView.h */,
+				6A2B55271CB4F06700AACCE9 /* LeftTableView.m */,
+				6A2B55281CB4F06700AACCE9 /* LeftTableViewCell.h */,
+				6A2B55291CB4F06700AACCE9 /* LeftTableViewCell.m */,
+				6A2B552A1CB4F06700AACCE9 /* LeftTableViewCell.xib */,
+			);
+			path = LeftTableView;
+			sourceTree = "<group>";
+		};
+		6A2B552B1CB4F06700AACCE9 /* TopCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B552C1CB4F06700AACCE9 /* TopCollectionView.h */,
+				6A2B552D1CB4F06700AACCE9 /* TopCollectionView.m */,
+				6A2B552E1CB4F06700AACCE9 /* TopCollectionViewCell.h */,
+				6A2B552F1CB4F06700AACCE9 /* TopCollectionViewCell.m */,
+				6A2B55301CB4F06700AACCE9 /* TopCollectionViewCell.xib */,
+			);
+			path = TopCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A2B54DF1CB4F05D00AACCE9 /* Excel_show_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2B550D1CB4F05E00AACCE9 /* Build configuration list for PBXNativeTarget "Excel_show_test" */;
+			buildPhases = (
+				6A2B54DC1CB4F05D00AACCE9 /* Sources */,
+				6A2B54DD1CB4F05D00AACCE9 /* Frameworks */,
+				6A2B54DE1CB4F05D00AACCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Excel_show_test;
+			productName = Excel_show_test;
+			productReference = 6A2B54E01CB4F05D00AACCE9 /* Excel_show_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A2B54F81CB4F05E00AACCE9 /* Excel_show_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2B55101CB4F05E00AACCE9 /* Build configuration list for PBXNativeTarget "Excel_show_testTests" */;
+			buildPhases = (
+				6A2B54F51CB4F05E00AACCE9 /* Sources */,
+				6A2B54F61CB4F05E00AACCE9 /* Frameworks */,
+				6A2B54F71CB4F05E00AACCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A2B54FB1CB4F05E00AACCE9 /* PBXTargetDependency */,
+			);
+			name = Excel_show_testTests;
+			productName = Excel_show_testTests;
+			productReference = 6A2B54F91CB4F05E00AACCE9 /* Excel_show_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A2B55031CB4F05E00AACCE9 /* Excel_show_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2B55131CB4F05E00AACCE9 /* Build configuration list for PBXNativeTarget "Excel_show_testUITests" */;
+			buildPhases = (
+				6A2B55001CB4F05E00AACCE9 /* Sources */,
+				6A2B55011CB4F05E00AACCE9 /* Frameworks */,
+				6A2B55021CB4F05E00AACCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A2B55061CB4F05E00AACCE9 /* PBXTargetDependency */,
+			);
+			name = Excel_show_testUITests;
+			productName = Excel_show_testUITests;
+			productReference = 6A2B55041CB4F05E00AACCE9 /* Excel_show_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A2B54D81CB4F05D00AACCE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Doer;
+				TargetAttributes = {
+					6A2B54DF1CB4F05D00AACCE9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6A2B54F81CB4F05E00AACCE9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6A2B54DF1CB4F05D00AACCE9;
+					};
+					6A2B55031CB4F05E00AACCE9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6A2B54DF1CB4F05D00AACCE9;
+					};
+				};
+			};
+			buildConfigurationList = 6A2B54DB1CB4F05D00AACCE9 /* Build configuration list for PBXProject "Excel_show_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A2B54D71CB4F05D00AACCE9;
+			productRefGroup = 6A2B54E11CB4F05D00AACCE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A2B54DF1CB4F05D00AACCE9 /* Excel_show_test */,
+				6A2B54F81CB4F05E00AACCE9 /* Excel_show_testTests */,
+				6A2B55031CB4F05E00AACCE9 /* Excel_show_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A2B54DE1CB4F05D00AACCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2B553A1CB4F06700AACCE9 /* LeftTableViewCell.xib in Resources */,
+				6A2B553D1CB4F06700AACCE9 /* TopCollectionViewCell.xib in Resources */,
+				6A2B55331CB4F06700AACCE9 /* ContentCollectionViewCell.xib in Resources */,
+				6A2B54F31CB4F05E00AACCE9 /* LaunchScreen.storyboard in Resources */,
+				6A2B54F01CB4F05E00AACCE9 /* Assets.xcassets in Resources */,
+				6A2B54EE1CB4F05E00AACCE9 /* Main.storyboard in Resources */,
+				6A2B55361CB4F06700AACCE9 /* ContentTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2B54F71CB4F05E00AACCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2B55021CB4F05E00AACCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A2B54DC1CB4F05D00AACCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2B553C1CB4F06700AACCE9 /* TopCollectionViewCell.m in Sources */,
+				6A2B54EB1CB4F05D00AACCE9 /* ViewController.m in Sources */,
+				6A2B55351CB4F06700AACCE9 /* ContentTableViewCell.m in Sources */,
+				6A2B55391CB4F06700AACCE9 /* LeftTableViewCell.m in Sources */,
+				6A2B55371CB4F06700AACCE9 /* ExcelView.m in Sources */,
+				6A2B54E81CB4F05D00AACCE9 /* AppDelegate.m in Sources */,
+				6A2B54E51CB4F05D00AACCE9 /* main.m in Sources */,
+				6A2B55321CB4F06700AACCE9 /* ContentCollectionViewCell.m in Sources */,
+				6A2B55311CB4F06700AACCE9 /* CellSelectedBackgroundView.m in Sources */,
+				6A2B55341CB4F06700AACCE9 /* ContentTableView.m in Sources */,
+				6A2B55381CB4F06700AACCE9 /* LeftTableView.m in Sources */,
+				6A2B553B1CB4F06700AACCE9 /* TopCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2B54F51CB4F05E00AACCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2B54FE1CB4F05E00AACCE9 /* Excel_show_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2B55001CB4F05E00AACCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2B55091CB4F05E00AACCE9 /* Excel_show_testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A2B54FB1CB4F05E00AACCE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A2B54DF1CB4F05D00AACCE9 /* Excel_show_test */;
+			targetProxy = 6A2B54FA1CB4F05E00AACCE9 /* PBXContainerItemProxy */;
+		};
+		6A2B55061CB4F05E00AACCE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A2B54DF1CB4F05D00AACCE9 /* Excel_show_test */;
+			targetProxy = 6A2B55051CB4F05E00AACCE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A2B54EC1CB4F05E00AACCE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2B54ED1CB4F05E00AACCE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A2B54F11CB4F05E00AACCE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2B54F21CB4F05E00AACCE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A2B550B1CB4F05E00AACCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A2B550C1CB4F05E00AACCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A2B550E1CB4F05E00AACCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Excel_show_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EchartsTest.jjx.doer.Excel-show-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A2B550F1CB4F05E00AACCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Excel_show_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EchartsTest.jjx.doer.Excel-show-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A2B55111CB4F05E00AACCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Excel_show_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EchartsTest.jjx.doer.Excel-show-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Excel_show_test.app/Excel_show_test";
+			};
+			name = Debug;
+		};
+		6A2B55121CB4F05E00AACCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Excel_show_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EchartsTest.jjx.doer.Excel-show-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Excel_show_test.app/Excel_show_test";
+			};
+			name = Release;
+		};
+		6A2B55141CB4F05E00AACCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Excel_show_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EchartsTest.jjx.doer.Excel-show-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Excel_show_test;
+			};
+			name = Debug;
+		};
+		6A2B55151CB4F05E00AACCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Excel_show_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EchartsTest.jjx.doer.Excel-show-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Excel_show_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A2B54DB1CB4F05D00AACCE9 /* Build configuration list for PBXProject "Excel_show_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2B550B1CB4F05E00AACCE9 /* Debug */,
+				6A2B550C1CB4F05E00AACCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A2B550D1CB4F05E00AACCE9 /* Build configuration list for PBXNativeTarget "Excel_show_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2B550E1CB4F05E00AACCE9 /* Debug */,
+				6A2B550F1CB4F05E00AACCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A2B55101CB4F05E00AACCE9 /* Build configuration list for PBXNativeTarget "Excel_show_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2B55111CB4F05E00AACCE9 /* Debug */,
+				6A2B55121CB4F05E00AACCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A2B55131CB4F05E00AACCE9 /* Build configuration list for PBXNativeTarget "Excel_show_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2B55141CB4F05E00AACCE9 /* Debug */,
+				6A2B55151CB4F05E00AACCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A2B54D81CB4F05D00AACCE9 /* Project object */;
+}
