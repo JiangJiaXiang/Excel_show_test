@@ -28,6 +28,8 @@
 		6A2B553B1CB4F06700AACCE9 /* TopCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B552D1CB4F06700AACCE9 /* TopCollectionView.m */; };
 		6A2B553C1CB4F06700AACCE9 /* TopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B552F1CB4F06700AACCE9 /* TopCollectionViewCell.m */; };
 		6A2B553D1CB4F06700AACCE9 /* TopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B55301CB4F06700AACCE9 /* TopCollectionViewCell.xib */; };
+		6A2B553F1CB4FF9E00AACCE9 /* 显示.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B553E1CB4FF9E00AACCE9 /* 显示.png */; };
+		6A2B55411CB4FFA200AACCE9 /* 选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B55401CB4FFA200AACCE9 /* 选中.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		6A2B552E1CB4F06700AACCE9 /* TopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCollectionViewCell.h; sourceTree = "<group>"; };
 		6A2B552F1CB4F06700AACCE9 /* TopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCollectionViewCell.m; sourceTree = "<group>"; };
 		6A2B55301CB4F06700AACCE9 /* TopCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopCollectionViewCell.xib; sourceTree = "<group>"; };
+		6A2B553E1CB4FF9E00AACCE9 /* 显示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "显示.png"; sourceTree = "<group>"; };
+		6A2B55401CB4FFA200AACCE9 /* 选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 		6A2B54E21CB4F05D00AACCE9 /* Excel_show_test */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B55401CB4FFA200AACCE9 /* 选中.png */,
+				6A2B553E1CB4FF9E00AACCE9 /* 显示.png */,
 				6A2B55161CB4F06700AACCE9 /* JExcelView */,
 				6A2B54E61CB4F05D00AACCE9 /* AppDelegate.h */,
 				6A2B54E71CB4F05D00AACCE9 /* AppDelegate.m */,
@@ -338,7 +344,9 @@
 				6A2B553D1CB4F06700AACCE9 /* TopCollectionViewCell.xib in Resources */,
 				6A2B55331CB4F06700AACCE9 /* ContentCollectionViewCell.xib in Resources */,
 				6A2B54F31CB4F05E00AACCE9 /* LaunchScreen.storyboard in Resources */,
+				6A2B55411CB4FFA200AACCE9 /* 选中.png in Resources */,
 				6A2B54F01CB4F05E00AACCE9 /* Assets.xcassets in Resources */,
+				6A2B553F1CB4FF9E00AACCE9 /* 显示.png in Resources */,
 				6A2B54EE1CB4F05E00AACCE9 /* Main.storyboard in Resources */,
 				6A2B55361CB4F06700AACCE9 /* ContentTableViewCell.xib in Resources */,
 			);
@@ -602,6 +610,7 @@
 				6A2B550F1CB4F05E00AACCE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A2B55101CB4F05E00AACCE9 /* Build configuration list for PBXNativeTarget "Excel_show_testTests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +619,7 @@
 				6A2B55121CB4F05E00AACCE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A2B55131CB4F05E00AACCE9 /* Build configuration list for PBXNativeTarget "Excel_show_testUITests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +628,7 @@
 				6A2B55151CB4F05E00AACCE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
