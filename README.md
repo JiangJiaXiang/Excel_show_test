@@ -5,4 +5,4 @@
 
 ![image](https://github.com/JiangJiaXiang/Excel_show_test/blob/master/Excel_show_test/%E6%98%BE%E7%A4%BA.png)
 
-有什么疑问和建议请联系我：2650477690@qq.com
+有什么疑问请Issuse
